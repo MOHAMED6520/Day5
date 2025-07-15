@@ -1,5 +1,8 @@
-﻿namespace Day5
+﻿using System.Runtime.Intrinsics.X86;
+using Common;
+namespace Day5
 {
+    
     internal class Program
     {
         #region Exception Handling And Protective Code
@@ -194,6 +197,14 @@
             //Console.WriteLine("Hello After Excepion "); 
             #endregion
 
+            #region Access Modifier 
+            // //Access Modifier
+            // //Common.TypeA = new TypeA(); //Invalid
+            // TypeB typeB = new Common.TypeB();
+            //// typeB.X = 5;  //invalid
+            //// typeB.Y = 10; //invalid
+            // typeB.Z = 20;
+            #endregion
 
 
         }
