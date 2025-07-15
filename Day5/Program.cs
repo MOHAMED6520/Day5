@@ -23,9 +23,6 @@
             //int x =(int) o1; 
             #endregion
 
-
-
-
             #region Nullable Type
             //Nullable Type
             #region   Nullable Value Type
@@ -98,6 +95,35 @@
             //Console.WriteLine(Message02.Length); 
             #endregion
             #endregion
+
+            #region Null Propagation Operator
+            ///*Null Propagation Operator*/ ?
+
+            //double x = default;
+            //Console.WriteLine(x);
+
+            //int[] arr = default;
+            //int[] arr = { 1, 2, 3 };
+            //if (arr != null)
+            //{
+            //    for (int i = 0;  i < arr.Length; i++)
+            //     Console.WriteLine(arr[i]);
+            //}
+
+            //for (int i = 0;arr is not null && i<arr.Length;i++)
+            //    Console.WriteLine(arr[i]);
+
+            //for (int i = 0;  i < arr?.Length; i++)
+            //  Console.WriteLine(arr[i]);
+
+            // int len = arr.Length;
+            // int len = arr?.Length is not null ? arr.Length:0
+            //int len = arr?.Length ?? -1;
+
+            //Console.WriteLine(len); 
+            #endregion
+
+
 
         }
     }
