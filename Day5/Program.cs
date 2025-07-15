@@ -1,8 +1,35 @@
 ﻿using System.Runtime.Intrinsics.X86;
+using System.Threading;
 using Common;
 namespace Day5
 {
-    
+    enum season : byte
+    {
+        Spring = 10,
+        Winter,
+        Summer,
+        Autumn
+    }
+    enum WeekDay
+    {
+        Saturday,
+        Sunday,
+        Monday,
+        Tuesday,
+        Wednesday,
+        Thursday,
+        Friday
+
+
+    }
+    enum Gender
+    {
+        M=1,
+        F=0,
+        Male=1,
+        female=0
+
+    }
     internal class Program
     {
         #region Exception Handling And Protective Code
@@ -206,7 +233,25 @@ namespace Day5
             // typeB.Z = 20;
             #endregion
 
+            //Enum
+            #region EnumEx01
+            ////season S01 = new season();
+            ////S01 = season.Spring;
+            ////Console.WriteLine(S01);
+            ////Console.WriteLine((int)S01);
 
+            ////Gender G01 = new Gender();
+            ////G01 = (Gender) 10;
+
+            ////  Gender G01 = (Gender)Enum.Parse(typeof(Gender), Console.ReadLine(),true);
+            //Gender G01 = new Gender();
+
+            //object o1;
+            //Enum.TryParse(typeof(Gender), Console.ReadLine(),  true, out o1);
+
+            //G01 =(Gender) o1;
+            //Console.WriteLine(G01); 
+            #endregion
         }
     }
 }
