@@ -24,6 +24,68 @@
             #endregion
 
 
+            //Nullable Type
+
+            #region   Nullable Value Type
+            ////Nullable Value Type
+
+            //int x = 5;
+            //x = null; //invalid
+
+            //int? Age  = 25; //Nullable <int>
+            //Age = null; 
+
+            //double? salary =21525.5 ; //Nullable<double>
+            //salary = null;  
+
+            //int X = 5;
+            //int? Y = /*(int?)*/ X;
+
+            //Console.WriteLine(Y);
+
+            //int? x = 5;
+
+            //x = null;
+            //int y;
+            //int y = (int)x;
+
+            //Explicit Casting
+
+            //Console.WriteLine(y);
+
+
+            //if (x != null)
+            //    y = (int)x;
+            //else
+            //    y = 0;
+
+            //==============
+
+
+            //if (x is not null)
+            //    y = (int)x;
+            //else
+            //    y = 0;
+            //Console.WriteLine(y);
+
+            //=============
+
+            //if (x.HasValue)
+            //    y=x.Value;
+            //else
+            //    y = 0;
+            //Console.WriteLine(y);
+
+            //=======================
+
+            //y= x.HasValue? x.Value : 0;
+            // y=x is not null ? x.Value : 0;
+
+            //==================
+            //y = x ?? 0;
+            //Console.WriteLine(y); 
+            #endregion
+
         }
     }
 }
