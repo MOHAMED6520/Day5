@@ -2,6 +2,68 @@
 {
     internal class Program
     {
+        #region Exception Handling And Protective Code
+        //static void DoSomeCode()
+        //{
+        //    int x, y, z;
+        //    x = int.Parse(Console.ReadLine());
+        //    y = int.Parse(Console.ReadLine());
+        //    z = x / y;
+        //    int[] arr = { 1, 2, 3 };
+        //    arr[99] = 10;
+        //}
+
+        //static void DoSomeCode()
+        //{
+        //    try
+        //    {
+        //        int x, y, z;
+        //    x = int.Parse(Console.ReadLine());
+        //    y = int.Parse(Console.ReadLine());
+        //    z = x / y;
+        //    int[] arr = { 1, 2, 3 };
+        //    arr[99] = 10;
+        //    }
+        //    catch (Exception e)
+        //    { 
+        //        Console.WriteLine(e.Message); 
+        //    }
+        //    finally
+        //    {
+        //        Console.WriteLine("Finally");
+        //    }
+        //}
+
+        //static void DoSomeProtectiveCode()
+        //{ 
+        //    try {
+        //int X, Y, Z;
+        //    bool flag;
+        //    do
+        //    {
+        //        Console.Write(" Enter First Number : ");
+        //        flag = int.TryParse(Console.ReadLine(), out X);
+        //    }
+        //    while (!flag);
+
+        //    do
+        //    {
+        //        Console.Write(" Enter First Number");
+
+        //    }
+        //    while (!int.TryParse(Console.ReadLine(), out Y)||Y==0);
+        //    Z = X / Y;
+        //    int[]arr = { 1, 2, 3 };
+        //    if (99<arr.Length)
+        //    {
+        //        arr[99] = 10;
+        //    }
+        //    } catch (Exception e)
+        //    { Console.WriteLine(e.Message); }
+        //} 
+        #endregion
+
+
         static void Main(string[] args)
         {
             #region 1.Boxing And UnBoxing
@@ -121,6 +183,15 @@
             //int len = arr?.Length ?? -1;
 
             //Console.WriteLine(len); 
+            #endregion
+
+            #region Exception Handling And Protective Code
+
+            //// Exception Handling And Protective Code
+
+            //DoSomeCode();
+
+            //Console.WriteLine("Hello After Excepion "); 
             #endregion
 
 
