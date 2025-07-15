@@ -24,8 +24,10 @@
             #endregion
 
 
-            //Nullable Type
 
+
+            #region Nullable Type
+            //Nullable Type
             #region   Nullable Value Type
             ////Nullable Value Type
 
@@ -84,6 +86,17 @@
             //==================
             //y = x ?? 0;
             //Console.WriteLine(y); 
+            #endregion
+
+            #region Nullable Reference Type
+            //Nullable Reference Type
+
+            //string Message01=null;   //Required
+            //string? Message02=null;  //Nullable
+
+            //Console.WriteLine(Message01);
+            //Console.WriteLine(Message02.Length); 
+            #endregion
             #endregion
 
         }
