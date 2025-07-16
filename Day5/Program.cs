@@ -27,6 +27,17 @@
         //    Autumn
         //} 
         #endregion
+
+        #region Q03
+        //[Flags]
+        //enum Permission
+        //{
+        //    Read = 8,
+        //    Write = 4,
+        //    Execute = 2,
+        //    Delete = 1
+        //} 
+        #endregion
         static void Main(string[] args)
         {
             #region Q01
@@ -39,7 +50,6 @@
             //    Console.WriteLine(weekDays01);
             //} 
             #endregion
-
 
             #region Q02
             //;
@@ -78,6 +88,12 @@
             #endregion
 
 
+            #region Q03
+            //Permission per = Permission.Write;
+            //per |= Permission.Delete;
+
+            //Console.WriteLine(per); 
+            #endregion
 
         }
     }
