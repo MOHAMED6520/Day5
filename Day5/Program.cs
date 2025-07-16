@@ -3,33 +3,44 @@ using System.Threading;
 using Common;
 namespace Day5
 {
-    enum season : byte
-    {
-        Spring = 10,
-        Winter,
-        Summer,
-        Autumn
-    }
-    enum WeekDay
-    {
-        Saturday,
-        Sunday,
-        Monday,
-        Tuesday,
-        Wednesday,
-        Thursday,
-        Friday
+    #region Enum
+    //enum season : byte
+    //{
+    //    Spring = 10,
+    //    Winter,
+    //    Summer,
+    //    Autumn
+    //}
+    //enum WeekDay
+    //{
+    //    Saturday,
+    //    Sunday,
+    //    Monday,
+    //    Tuesday,
+    //    Wednesday,
+    //    Thursday,
+    //    Friday
 
 
-    }
-    enum Gender
-    {
-        M=1,
-        F=0,
-        Male=1,
-        female=0
+    //}
+    //enum Gender
+    //{
+    //    M=1,
+    //    F=0,
+    //    Male=1,
+    //    female=0
 
-    }
+    //}
+    //[Flags]
+    //enum Permission 
+    //{ 
+    //    Read =8,
+    //    Write =4,
+    //    Execute =2,
+    //    Delete =1
+
+    //} 
+    #endregion
     internal class Program
     {
         #region Exception Handling And Protective Code
@@ -252,6 +263,26 @@ namespace Day5
             //G01 =(Gender) o1;
             //Console.WriteLine(G01); 
             #endregion
+
+            #region EnumEx02
+            //Permission Per01 = Permission.Read;
+            //Per01^= Permission.Delete;
+            ////Per01|= Permission.Delete;
+            ////Console.WriteLine(Per01);
+
+            ////Per01 |= Permission.Delete;
+            ////Console.WriteLine(Per01);
+
+            //Per01 &= ~(Permission.Delete);
+            //Console.WriteLine(Per01);
+
+            //if ((Per01 & Permission.Delete) == Permission.Delete)
+            //    Console.WriteLine("Exists");
+            //else
+            //    Console.WriteLine("Not Exisits"); 
+            #endregion
+
+
         }
     }
 }
