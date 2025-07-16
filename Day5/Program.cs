@@ -38,6 +38,16 @@
         //    Delete = 1
         //} 
         #endregion
+
+        #region Q04
+        //enum Color
+        //{ 
+        //  Red,
+        //  Green, 
+        //  Blue 
+        //} 
+        #endregion
+
         static void Main(string[] args)
         {
             #region Q01
@@ -87,7 +97,6 @@
             //} 
             #endregion
 
-
             #region Q03
             //Permission per = Permission.Write;
             //per |= Permission.Delete;
@@ -95,6 +104,24 @@
             //Console.WriteLine(per); 
             #endregion
 
+            #region Q04
+            //    Console.Write("Enter Color : ");
+            //    object O;
+            //    Color color = new Color();
+            //    Enum.TryParse(typeof (Color),Console.ReadLine(),true, out O);
+            //     if (O != null) 
+            //        color = (Color) O;
+
+            //    if (O == null)
+            //        Console.WriteLine("the input color is not a primary color");
+            //    else if (color == Color.Red || color == Color.Blue || color == Color.Green)
+            //    {
+            //        Console.WriteLine("the input color is a primary color");
+            //    }
+            //    else
+            //        Console.WriteLine("the input color is not a primary color");
+
+            #endregion
         }
     }
 }
